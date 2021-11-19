@@ -11,10 +11,10 @@
         [x] resets the `basket` array to an empty array
 
 [ ] STRETCH GOALS
-    [ ] Add global `const` named `maxItems` and set it to 5.
-    [ ] Create function called `isFull()`
-        [ ] returns `false` if the basket contains LESS than max number of items
-        [ ] returns `true` if the basket contains MORE than or EQUAL to the max number of items
+    [x] Add global `const` named `maxItems` and set it to 5.
+    [x] Create function called `isFull()`
+        [x] returns `false` if the basket contains LESS than max number of items
+        [x] returns `true` if the basket contains MORE than or EQUAL to the max number of items
     [ ] Update `addItem` function 
         [ ] Use the `isFull` function to prevent more than `maxItems` from being added to basket
         [ ] if an item was added to the array, return `true`
