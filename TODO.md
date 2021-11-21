@@ -1,4 +1,4 @@
-[ ] Update cart.js with the following:
+[X] Update cart.js with the following:
     [x] Create global variable named `basket` and set to empty array
     [x] Create function name `addItem`
         [x] takes input parameter for a string named `item`
@@ -18,7 +18,7 @@
     [ ] Update `addItem` function 
         [ ] Use the `isFull` function to prevent more than `maxItems` from being added to basket
         [ ] if an item was added to the array, return `true`
-        [ ] if there was no room and the item could not be added, retuirn `false`
+        [ ] if there was no room and the item could not be added, return `false`
     [ ] create a function named `removeItem`
         [ ] takes input parameter for a string `item`
         [ ] use [Array.indexOf] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/    

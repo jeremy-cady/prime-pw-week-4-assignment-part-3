@@ -7,13 +7,19 @@ const maxItems = 5;
 
 function addItem( item ) {
     basket.push(item);
+
+    console.log(basket);
+
     return true;
 } // end addItem
 
-console.log(addItem('apple'));
-console.log(addItem('water'));
+addItem('apple');
+addItem('melon');
+addItem('orange');
+addItem('banana');
+addItem('strawberry');
+addItem('blueberry');
 
-console.log(basket);
 
 function listItems() {
     for(let items of basket) {
@@ -28,7 +34,7 @@ function empty() {
     console.log(basket);
 } // end empty 
 
-empty();
+//empty();
 
 function isFull() {
     if (basket.length < maxItems) {
